@@ -10,47 +10,47 @@ class Main extends PluginBase implements Listener {
   public function onChat(PlayerChatEvent $event) {
         $player = $event->getPlayer();
         $chat = $event->getMessage();
-if(Event->getMessage() === "fuck") {
+if($chat === "fuck") {
 $this->getServer()->broadcastMessage("Oi STFU " . $player . " u Fat Pig, Gronk, Spanner, Flogwogger jackass <3");
 }
-    if(Event->getMessage() === "bitch") {
+    if($chat === "bitch") {
 $this->getServer()->broadcastMessage("yes, " . $player . " that is what you are<3");
       
 }
-if(Event->getMessage() === "cunt") {
+if($chat === "cunt") {
 $this->getServer()->broadcastMessage("yes a c*nt is delicious, shame you cant get any " . $player . " <3");
 }
-    if(Event->getMessage() === "nigger") {
+    if($chat === "nigger") {
 $this->getServer()->broadcastMessage("wow. such strong words from such a puny kid <3");
 }
-    if(Event->getMessage() === "nigga") {
+    if($chat === "nigga") {
 $this->getServer()->broadcastMessage("wow. such strong words from such a puny kid <3");
 }
-        if(Event->getMessage() === "asshole") {
+        if($chat === "asshole") {
 $this->getServer()->broadcastMessage("yes, an a-hole is where you sh- from. glad you pointed out something everyone has <3");
 }
-        if(Event->getMessage() === "ass") {
+        if($chat === "ass") {
 $this->getServer()->broadcastMessage("yes, an a- is where you sh- from. glad you pointed out something everyone has <3");
 }
-     if(Event->getMessage() === "wanker") {
+     if($chat === "wanker") {
 $this->getServer()->broadcastMessage("i see you call someone a wanker, its a shame you cant wank with that tic tac of yours <3");
 }
-     if(Event->getMessage() === "fucktard") {
+     if($chat === "fucktard") {
 $this->getServer()->broadcastMessage("are you talking about having intercourse with a retard, might aswell f- urself LOOOL <3");
 }
-     if(Event->getMessage() === "retard") {
+     if($chat === "retard") {
 $this->getServer()->broadcastMessage("i love how much you like describing yourself <3");
 }
-     if(Event->getMessage() === "shit") {
+     if($chat === "shit") {
 $this->getServer()->broadcastMessage("yes, sh- is excrement from an animal <3");
 }
-     if(Event->getMessage() === "libtard") {
+     if($chat === "libtard") {
 $this->getServer()->broadcastMessage("are you righting a biography on your life? <3");
 }
-     if(Event->getMessage() === "fucknuckle") {
+     if($chat === "fucknuckle") {
 $this->getServer()->broadcastMessage("you wanna fu- knuckles the hedgehog, well i guess you do you, might as well call you mr hands 2.0. <3");
 }
-     if(Event->getMessage() === "whore") {
+     if($chat === "whore") {
 $this->getServer()->broadcastMessage("i believe that is an accurate description of your status <3");
 }
   }
