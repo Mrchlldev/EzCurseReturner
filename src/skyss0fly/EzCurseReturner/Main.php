@@ -3,7 +3,8 @@
 namespace skyss0fly\EzCurseReturner;
 use pocketmine\event\Listener;
 use pocketmine\plugin\PluginBase;
-
+use pocketmine\event\player\PlayerChatEvent;
+use pocketmine\player\Player;
 class Main extends PluginBase implements Listener {
 
   public function onChat(PlayerChatEvent $event) {
