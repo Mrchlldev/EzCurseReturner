@@ -17,7 +17,7 @@ $this->getServer()->broadcastMessage("Oi STFU " . $player . " u Fat Pig, Gronk, 
 $this->getServer()->broadcastMessage("yes, " . $player . " that is what you are<3");
       
 }
-if(str_contains($chat, "cunt") $chat) {
+if(str_contains($chat, "cunt")) {
 $this->getServer()->broadcastMessage("yes a c*nt is delicious, shame you cant get any " . $player . " <3");
 }
     if(str_contains($chat, "nigger")) {
