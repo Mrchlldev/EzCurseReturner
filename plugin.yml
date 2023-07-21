@@ -1,0 +1,6 @@
+name: EzCurseReturner
+main: EzMinecraftPlugins\EzCurseReturner\Main
+version: 1.0
+api: 5.0.0
+author: EzMinecraftPLugins
+description: A simple toxic but not toxic comebacking plugin
