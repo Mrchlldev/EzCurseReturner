@@ -10,19 +10,19 @@ class Main extends PluginBase implements Listener {
   public function onChat(PlayerChatEvent $event) {
         $player = $event->getPlayer();
         $chat = $event->getMessage();
-   if((strpos($chat, "stfu") !== false) {
+  if((strpos($chat, "stfu") !== false) {
        $this->getServer()->broadcastMessage("Calm down  " . $player . " there's no need for this behavior <3");
-   }
-   if((strpos($chat, "fuck") !== false) {
+  }
+  if((strpos($chat, "fuck") !== false) {
        $this->getServer()->broadcastMessage("yes thats an act of intercourse " . $player . "<3");
-   }
-   if((strpos($chat, "bitch") !== false) {
+  }
+  if((strpos($chat, "bitch") !== false) {
        $this->getServer()->broadcastMessage("yes, " . $player . " that is what you are<3");
-   }
-   if(strpos($chat, "libtard") !== false) {
+  }
+  if(strpos($chat, "libtard") !== false) {
        $this->getServer()->broadcastMessage("yes a c*nt is delicious, shame you cant get any " . $player . " <3");
-   }
-   if(strpos($chat, "nigger") !== false) {
+  }
+  if(strpos($chat, "nigger") !== false) {
        $this->getServer()->broadcastMessage("wow. such strong words from such a puny kid <3");
   }
   if(strpos($chat, "nigga") !== false) {
