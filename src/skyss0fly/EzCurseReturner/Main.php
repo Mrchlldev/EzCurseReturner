@@ -14,7 +14,7 @@ class Main extends PluginBase implements Listener {
        $this->getServer()->broadcastMessage("Calm down  " . $player . " there's no need for this behavior <3");
   }
   if((strpos($chat, "menu") !== false) {
-       $this->getServer()->broadcastMessage("Hello §e@" . $player . "§f!\n\n==[ §l§bTeleport Menu§r ]==\n§l§b» §r§e/warp§r\n§l§b» §r§e/tpa§r\n§l§b» §r§e/tpaaccept§r\n§l§b» §r§e/home§r\n§l§b» §r§e/tpadeny§r");
+       $this->getServer()->broadcastMessage("Hello §e@" . $player . "§f!\n\n==[ §l§bTeleport Menu§r ]==\n§l§b» §r§e/warp§r\n§l§b» §r§e/tpa§r\n§l§b» §r§e/tpaaccept§r\n§l§b» §r§e/home§r\n§l§b» §r§e/tpadecline§r\n§l§b» §r§e/back§r\n§l§b» §r§e/pwarp§r") {
   }
   if((strpos($chat, "fuck") !== false) {
        $this->getServer()->broadcastMessage("yes thats an act of intercourse " . $player . "<3");
