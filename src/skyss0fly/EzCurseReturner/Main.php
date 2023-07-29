@@ -8,8 +8,8 @@ use pocketmine\player\Player;
 class Main extends PluginBase implements Listener {
 
   public function onChat(PlayerChatEvent $event) {
-        $player = $event->getPlayer();
-        $chat = $event->getMessage();
+    $player = $event->getPlayer();
+    $chat = $event->getMessage();
   if((strpos($chat, "stfu") !== false) {
        $this->getServer()->broadcastMessage("Calm down  " . $player . " there's no need for this behavior <3");
   }
